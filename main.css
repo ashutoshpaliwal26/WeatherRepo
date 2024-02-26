@@ -14,6 +14,7 @@ body {
 .app-wrap {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
@@ -92,4 +93,13 @@ main {
   font-size: 24px;
   font-weight: 500;
   text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn{
+  width:20%;
+  padding : 10px;
+  border-style:  none;
+  border-radius: 5px solid black;
+  background-color :rgba(0, 0, 0, 0.3);
+  color : white;
 }
